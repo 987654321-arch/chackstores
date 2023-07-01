@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css"/>
+        <!-- <link
+            rel="stylesheet"
+            href="OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css"> -->
+        <!-- Owl Stylesheets -->
+        <link
+            rel="stylesheet"
+            href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+        <link
+            rel="stylesheet"
+            href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function () {
+                /////// Prevent closing from click inside dropdown
+                document
+                    .querySelectorAll('.dropdown-menu')
+                    .forEach(function (element) {
+                        element.addEventListener('click', function (e) {
+                            e.stopPropagation();
+                        });
+                    })
+            });
+            // DOMContentLoaded  end
+        </script>
+        <!-- javascript -->
+        <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+        <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js"></script>`
+    </head>
+
+    <body>
+        <!--header starts-->
+    <section class="head-section fixed-top">
+        <!--top nav-->
+        <div class="container">
+            <div class="top-nav">
+                <div class="row">
+                    <div
+                        class="col-md-3 d-flex justify-content-center justify-content-md-start align-items-center logo-area p-2">
+                        <img src="imgs/LOGO2.jpg" alt="" srcset="" class="img-fluid" width="50"><b>CHAKSTORES</b>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center search-area">
+                        <form action="" class="search-form">
+                            <div class="form-group d-flex">
+                                <input type="text" class="form-control" placeholder="Search item">
+
+                                <button class="form-control search-btn"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class="col-md-3 cart-area">
+
+                        <a href="log-in.html">LOGIN</a>
+                        <a href="register.html">REGISTER</a>
+                        <a href="log-in.html"><i class="fa fa-shopping-cart"></i>CART</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--top nav ends-->
+        </div>
+
+        <!--main nav-->
+        <div class="row-fluid
+            ">
+            <div class="main-nav mt-md-2">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <h2 class="text uppercase">menu</h2>
+                            <span class="navbar-toggler-icon"></span>
+
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="products.html">products</a>
+                                </li>
+
+                                <li class="nav-item dropdown has-megamenu">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                        categories
+                                    </a>
+                                    <div class="dropdown-menu megamenu text-center m-lg-auto p-4" role="menu">
+                                        <div class="row g-3">
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="title text-uppercase">category title</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="product-details.html">Product 1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 5</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 6</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- col-megamenu.// -->
+                                            </div>
+                                            <!-- end col-3 -->
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="title text-uppercase">category title</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="product-details.html">Product 1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 5</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 6</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- col-megamenu.// -->
+                                            </div>
+                                            <!-- end col-3 -->
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="title text-uppercase">category title</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="product-details.html">Product 1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 5</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 6</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- col-megamenu.// -->
+                                            </div>
+                                            <div class="col-lg-3 col-6">
+                                                <div class="col-megamenu">
+                                                    <h6 class="title text-uppercase bold">category title</h6>
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="product-details.html">Product 1</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 3</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 5</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="product-details.html">Product 6</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- col-megamenu.// -->
+                                            </div>
+                                            <!-- end col-3 -->
+                                        </div>
+                                        <!-- end row -->
+                                    </div>
+                                    <!-- dropdown-mega-menu.// -->
+
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">feature</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="about.html">about us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+        <!--main nav ends-->
+    </section>
+<!--log in-->
+<section class="log-in">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 m-auto">
+                <h1 class="heading text-center text-uppercase">login</h1>
+                <p class="text-center">please enter your user name and Password</p>
+                <form action="#" method="post" class="">
+                    <div class="login-input-box">
+                        <input type="text" name="user-name" placeholder="&#xf007; &nbsp; User Name" class="form-control">
+                        <input type="password" name="user-password" placeholder="&#xf084; &nbsp; &#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679; " class="form-control">
+                        
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="custom-control custom-checkbox mb-3"> <input id="customCheck1" type="checkbox" class="custom-control-input checkbox-muted"> <label for="customCheck1" class="custom-control-label text-muted">Remember Me</label> </div>
+                        <!-- Forgot Password Link -->
+                        <span><a href="forgot-password.html" class="text-dark text-decoration-none"><b>Forgot Password?</b></a></span>
+                        
+                    </div>
+                    <div class="button-box">
+                        <button class="btn btn-primary form-control" type="submit"><span>LOG IN</span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!--footer -->
+<section class="footer bg-light">
+    <section class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-uppercase">know it all first</h3>
+                    <p>Vel repellat dolores cum dignissimos et quibusdam nobis suscipit dolores. Provident
+                        voluptates perspiciatis.</p>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <form action="#" class="searchform">
+                        <div class="form-group d-flex">
+                            <input type="text" class="form-control pl-3" placeholder="enter e-mail">
+                            <button type="submit" placeholder="" class="form-control search text-uppercase">
+                                subscribe
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h4 class="text-uppercase">chakstores</h4>
+                <p>Vel repellat dolores cum dignissimos et quibusdam nobis suscipit dolores. Provident voluptates
+                    perspiciatis.</p>
+            </div>
+            <div class="col-md-3 text-capitalize mb-4 quick-links">
+                <h4 class="text-uppercase">quick links</h4>
+                <p><a href="index.html">home</a></p>
+                <p><a href="products.html">products</a></p>
+                <p><a href="">feature</a></p>
+                <p><a href="faqs.html">faqs</a></p>
+                <p><a href="about.html">about us</a></p>
+            </div>
+            <div class="col-md-3 text-capitalize mb-4">
+                <h4 class="text-uppercase">Find us</h4>
+                <p><i class="fa fa-location-arrow"></i> mathare noth area 2</p>
+                <p><i class="fa fa-phone"></i> 0712 345 678 </p>
+                <p><i class="fa fa fa-envelope"></i> chakstores@gmail.com </p>
+                <p>Vel repellat dolores cum dignissimos et quibusdam nobis suscipit dolores. Provident voluptates
+                    perspiciatis.</p>
+            </div>
+            <div class="col-md-3 mb-4 connect">
+                <h4 class="text-uppercase">connect with us</h4>
+                <div class="social-icons d-flex">
+                    <a href="" data-toggle="tooltip" data-placement="top" title="chackstores 254" class="text-decoration-none"><i class="fa fa-facebook d-flex justify-content-center align-items-center"></i></a>
+                    </a>
+                    <a href="" data-toggle="tooltip" data-placement="top" title="chackstores" class="text-decoration-none"><i class="fa fa-instagram d-flex justify-content-center align-items-center"></i></a>
+                    </a>
+                    <a href="" data-toggle="tooltip" data-placement="top" title="@chackstores 254" class="text-decoration-none"><i class="fa fa-twitter d-flex justify-content-center align-items-center"></i></a>
+                    </a>
+                    <a href="" data-toggle="tooltip" data-placement="top" title="0712 345 678" class="text-decoration-none"><i class="fa fa-whatsapp d-flex justify-content-center align-items-center"></i></a>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/js/app.js"></script>
+</body>
+
+</html>

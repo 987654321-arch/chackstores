@@ -107,12 +107,12 @@ a{
     color: #2ea359;
     font-weight: 600;
 }
-.navbar-light button.btn.btn-primary.login {
+.navbar-light .btn.btn-primary.login {
     background-color: transparent;
     color: black;
     border: 1px solid #fed700;;
 }
-.navbar-light button.btn.btn-primary.Sign-up {
+.navbar-light .btn.btn-primary.Sign-up {
     background-color: #fed700;
     color: black;
     border: none;
@@ -193,47 +193,18 @@ a{
 .crousel{
     margin-top: 2rem;
 }
-.crousel .item .slider-content{
-    flex-basis: 50%;
-    position: relative;
-}
 
-.crousel .item .slider-content h1{
-    font-size: 3rem;
+.crousel h1{
+    font-size: 2.5rem;
     font-weight: 600;
     text-transform: capitalize;
 }
-@media(max-width:768px){
-    .item{
-        flex-direction: column;
-    }
-    .crousel .item .slider-content h1{
-        font-size: 2rem;
-    }
-}
-@media(max-width:500px){
-    .crousel{
-        margin-top: 10rem;
-    }
-    .crousel .item .slider-content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .crousel .item .slider-content h1{
-        font-size: 2.7rem;
-        text-align: center;
-    }
-    .crousel .item .btn{
-        text-align: center;
-    }
-}
-.crousel .item .slider-content span{
+
+.crousel span{
     color: #2ea359;
 }
 
-.crousel .item .btn{
+.crousel .btn{
     padding: 15px 50px;
     font-weight: 600;
     background-color: #fed700;
@@ -243,12 +214,13 @@ a{
     color: #292828;
     margin-top: 1.5rem;
 }
-.crousel .item .btn a{
+.crousel .btn a{
     text-decoration: none;
     color: rgb(32, 32, 32);
 }
-.crousel .item .btn:hover{
+.crousel .btn:hover{
     margin-left: 15px;
+    background-color: #fed700;
 }
 
 .crousel .owl-theme .owl-nav {
@@ -808,7 +780,7 @@ a{
     border: 1px solid #e2e2e2;
 }
 .products{
-    margin-top: 10rem;
+    margin-top: 6rem;
 }
 @media(max-width:500px){
     .products{
@@ -850,7 +822,6 @@ transform: scale(1.1);
 .products .product-card h4{
     margin-bottom: -4px;
     font-size: 1.1rem;
-    font-weight: 600;
 }
 
 .products .product-card .quantity{
@@ -888,6 +859,7 @@ transform: scale(1.1);
 .products .product-card .btn a{
     color: #000000;
     text-decoration: none;
+    font-weight: normal;
 }
 .products .product-card .more{
     font-weight: 500;
@@ -947,7 +919,7 @@ transform: scale(1.1);
     text-decoration: line-through;
 }
 .product-details .product-info .details{
-    font-weight: 600;
+    font-weight: normal;
     font-size: 1.1rem;
 }
 .product-details .product-info .description{
@@ -974,7 +946,7 @@ transform: scale(1.1);
 
 /* about */
 .about{
-    margin: 10rem 0 5rem 0;
+    margin: 6rem 0 5rem 0;
 }
 @media(max-width:500px){
     .about{
@@ -988,7 +960,7 @@ transform: scale(1.1);
     color: rgb(32, 32, 32);
 }
 .about p{
-    font-weight: 500;
+    font-weight: normal;
 }
 
 /* register */
@@ -1240,7 +1212,7 @@ transform: scale(1.1);
 }
 /* cart */
 .cart{
-    margin: 10rem 0 5rem 0;
+    margin: 6rem 0 5rem 0;
 }
 @media(max-width:500px){
     .cart{

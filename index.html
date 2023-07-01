@@ -59,95 +59,94 @@
                           <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">contacts</a>
-                          </li>
+          
                           <li class="nav-item">
                             <a class="nav-link" href="cart.html">cart</a>
                           </li>
                           <input type="search" class="form-control me-3" placeholder="Search Product..." aria-label="Search">
                           
                     </ul>
-                    <button type="button" class="btn btn-primary me-3 login px-4 py-2">Login</button>
-                          <button type="button" class="btn btn-primary Sign-up px-4 py-2">Sign-up</button>
+                    <a href="log-in.html" class="btn btn-primary me-3 login px-4 py-2">Login</a>
+                    <a href="register.html" class="btn btn-primary Sign-up px-4 py-2">Sign up</a>
                     
                 </div>
             </div>
         </nav>
         <!--main nav ends-->
     </section>
-
+<!--header ends-->
     <!--crousel-->
     <section class="crousel">
-        <div class="row-fluid">
-            <div class="container mt-0 p-0">
-
-                <div class="fadeOut owl-carousel owl-theme mt-0">
-
-                    <div class="item">
-                        <div class="img-area">
-                            <img src="imgs/weetabix4.png" alt="" class="img-fluid" />
-                        </div>
-
-                        <div class="slider-content">
-
-                            <h1>Pata deals poa<br> za
-                                <span>cereals</span>
-                                apa ivii <br>chackstores</h1>
-                            <button type="button" class="btn btn-primary shadow-lg"><a href="products.html">SHOP
-                                    NOW</a></button>
-
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="img-area">
-                            <img src="imgs/unga-hero.png" alt="" class="img-fluid" />
-                        </div>
-
-                        <div class="slider-content">
-
-                            <h1>Pata deals poa<br> za
-                                <span>unga</span>
-                                apa ivii chackstores</h1>
-                            <button type="button" class="btn btn-primary shadow-lg"><a href="products.html">SHOP
-                                    NOW</a></button>
-
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="img-area">
-                            <img src="imgs/toss.png" alt="" class="img-fluid" />
-                        </div>
-
-                        <div class="slider-content">
-
-                            <h1>Pata deals poa<br> za
-                                <span>sabuni</span>
-                                apa ivii <br>chackstores</h1>
-                            <button type="button" class="btn btn-primary shadow-lg"><a href="products.html">SHOP
-                                    NOW</a></button>
-
-                        </div>
-                    </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                <div class="container">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <script>
-                    jQuery(document).ready(function ($) {
-                        $('.fadeOut').owlCarousel({
-                            items: 1,
-                            nav: true,
-                            animateOut: 'fadeOut',
-                            loop: true,
-                            margin: 10,
-                            autoplay: true,
-                            autoplayTimeout: 7000,
-                            autoplayHoverPause: false
-                        });
-                    });
-                </script>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="my-5 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid rounded-3 my-5" src="imgs/salit.png" alt="..." />
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 d-none d-xl-block">
+                            <div class="my-5">
+                                <h1>Pata deals poa za<br>
+                                    <span>mafuta</span>
+                                    apa  ivii chackstores</h1>
+                                <button type="button" class="btn btn-primary shadow-lg"><a href="products.html">SHOP NOW</a></button>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="my-5 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid rounded-3 my-5" src="imgs/222.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 d-none d-xl-block">
+                            <div class="my-5">
+                                <h1>Pata deals poa za<br>
+                                    <span>maziwa</span>
+                                    apa  ivii chackstores</h1>
+                                <button type="button" class="btn btn-primary shadow-lg"><a href="products.html">SHOP NOW</a></button>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="my-5 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid rounded-3 my-5" src="imgs/soko.jpg" alt="..." />
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-xxl-6 d-none d-xl-block">
+                            <div class="my-5">
+                                <h1>Pata deals poa za<br>
+                                    <span>unga</span>
+                                    apa  ivii <br>chackstores</h1>
+                                <button type="button" class="btn btn-primary shadow-lg"><a href="products.html">SHOP NOW</a></button>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
-        </div>
-
     </section>
 
     <!--3 cards-->
